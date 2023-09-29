@@ -32,7 +32,7 @@ fi
 
 echo -e "${YEL}\nChecking internet connection...${NC}"
 
-wget -q --spider http://google.com
+wget -q --spider http://bilibili.com
 if [ $? -eq 0 ]; then
     echo "We are online"
 else
