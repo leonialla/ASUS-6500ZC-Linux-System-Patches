@@ -11,7 +11,7 @@ uptime=$(awk '{
 }' /proc/uptime)
 
 if [[ $uptime != "enough" ]]; then
-    sleep 30
+    sleep 5
 fi
 
 hda-verb /dev/snd/hwC0D0 0x20 0x500 0xf
